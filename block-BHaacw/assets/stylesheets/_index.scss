@@ -1,0 +1,102 @@
+// Header
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.nav {
+  background-color: #fff;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  border-radius: 0.6rem;
+  & a {
+    color: #000;
+    font-size: 1.1rem;
+  }
+}
+
+// Cards
+
+.cards {
+  a {
+    color: red;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .image {
+    text-align: center;
+  }
+  p {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.item {
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-top: 0.2rem solid #0095BE;
+  border-radius: 0.4rem;
+}
+
+.item-3 {
+  img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    grid-row: span 3;
+  }
+}
+
+.item-4 {
+  a {
+    display: block;
+    background-color:red;
+    color: #fff;
+  }
+}
+
+.item-2 {
+  img {
+    width: 6rem;
+    height: 6rem;
+  }
+  a {
+    display: block;
+  }
+}
+
+.item-6 {
+  h3 {
+    background-color: #0095BE;
+    color: #fff;
+  }
+}
+
+.col-1, .col-3 {
+  display: grid;
+  align-items: stretch;
+  a {
+    padding-left: 1rem;
+  }
+}
+
+.col-2 {
+  display: grid;
+  place-items: stretch;
+  a {
+    padding-left: 1rem;
+  }
+}
