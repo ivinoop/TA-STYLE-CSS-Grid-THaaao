@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stimulus</title>
+  <script src="https://kit.fontawesome.com/d77ac583c4.js" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="assets/stylesheets/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav_bar flex justify-bw align-center">
+      <a href="#" class="brand">
+        <h2>Stimulus</h2>
+      </a>
+      <label class="bars" for="toggle">
+        <i class="fas fa-bars"></i>
+      </label>
+      <input type="checkbox" id="toggle" />
+      <nav class="nav">
+        <ul class="nav-menu flex">
+          <li>
+            <a id="active" href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">About Me</a>
+          </li>
+          <li>
+            <a href="#">Experience</a>
+          </li>
+          <li>
+            <a href="#">Testimonial</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN  -->
+  <main>
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+      <div class="hero-img">
+        <img src="assets/media/home-img.jpg" alt="Hero Image">
+      </div>
+      <div class="hero-content flex justify-center align-start flex-column">
+        <p>
+          Welcome to my website
+        </p>
+        <h1>
+          Hello, I am <strong>Stimulus</strong> currently based
+          in New York City.
+        </h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Perferendis maiores voluptatum, beatae eos, voluptatem
+          cumque expedita aspernatur veritatis ut hic consequatur
+          officia nam aliquam magni atque inventore debitis ex quisquam?
+        </p>
+        <a href="#" class="btn btn-primary">Get Started</a>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills-container">
+      <div class="skill-description">
+        <h3>Donec auctor</h3>
+        <p class="red">
+          Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Voluptates est quae necessitatibus eos delectus praesentium
+          inventore iste autem, aperiam illum!
+        </p>
+        <p>
+          Shore borrow shall followed did i from human felt heard. Nevermore
+          angels no answer kind nevernevermore thrilled all from tapping,.
+        </p>
+      </div>
+      <div class="skills-image">
+        <img src="assets/media/about-img.jpg" alt="About">
+      </div>
+      <div class="my-skills">
+        <h3>My Skills</h3>
+        <p>Photoshop. HTML CSS JS. Web Design</p>
+        <div class="skills-percentage-container">
+          <div class="flex flex-column skills-percentage">
+            <div class="flex justify-bw">
+              <span>Frontend Design</span>
+              <span>90%</span>
+            </div>
+            <meter min="0" max="100" value="90"></meter>
+          </div>
+          <div class="flex flex-column skills-percentage">
+            <div class="flex justify-bw">
+              <span>Backend Processing</span>
+              <span>70%</span>
+            </div>
+            <meter min="0" max="100" value="70"></meter>
+          </div>
+          <div class="flex flex-column skills-percentage">
+            <div class="flex justify-bw">
+              <span>HTML5 & CSS3</span>
+              <span>80%</span>
+            </div>
+            <meter min="0" max="100" value="90"></meter>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WORKS SECTION -->
+    <section class="works-container">
+
+      <div class="work work1 flex flex-column align-center justify-bw">
+        <div class="icon-container">
+          <i class="fas fa-desktop"></i>
+        </div>
+        <h4>Interface Design</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Optio official werut aswert xcvfer mnerut assqwert.
+        </p>
+      </div>
+      <div class="work work2 flex flex-column align-center justify-bw">
+        <div class="icon-container">
+          <i class="fas fa-paper-plane"></i>
+        </div>
+        <h4>Media Strategy</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Optio official werut aswert xcvfer mnerut assqwert.
+        </p>
+      </div>
+      <div class="work work3 flex flex-column align-center justify-bw">
+        <div class="icon-container">
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <h4>Mobile App</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Optio official werut aswert xcvfer mnerut assqwert.
+        </p>
+      </div>
+      <div class="work work4 flex flex-column align-center justify-bw">
+        <div class="icon-container">
+          <i class="fab fa-css3-alt"></i>
+        </div>
+        <h4>Coding</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Optio official werut aswert xcvfer mnerut assqwert.
+        </p>
+      </div>
+    </section>
+
+    <!-- EXPERIANCE & EDUCATION-->
+
+    <section class="experience-education">
+      <div class="experience-img">
+        <img src="assets/media/experience-img.jpg" alt="EXPERIANCE">
+      </div>
+      <div class="experience-details flex flex-column">
+        <h3>My Experiances</h3>
+        <span>Previous companies and my tasks</span>
+        <div class="flex align-center details">
+          <i class="fas fa-laptop"></i>
+          <div>
+            <h4>Graphic Designer <span>2014 Jul - 2015 Sep</span></h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="flex align-center details">
+          <i class="fas fa-laptop"></i>
+          <div>
+            <h4>Web Designer <span>2015 Oct - 2017 Jan</span></h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details education flex flex-column">
+        <h3>My Eduacation</h3>
+        <span>Lorem ipsum dolor sit amet consectetur.</span>
+        <div class="flex align-center details">
+          <i class="fas fa-laptop"></i>
+          <div>
+            <h4>Master in Design <span>2012 Jan - 2014 May</span></h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit
+              sit amet dolor ipsum lorem.
+            </p>
+          </div>
+        </div>
+        <div class="flex align-center details">
+          <i class="fas fa-laptop"></i>
+          <div>
+            <h4>Bachelor of Arts <span>2008 May - 2011 Dec</span></h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit
+              amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="experience-img">
+        <img src="assets/media/education-img.jpg" alt="Education">
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section class="contact-container">
+      <div class="say-hello">
+        <h3>Say hello..</h3>
+        <span>
+          Scorching time start few noontide vast take of feel hall.
+        </span>
+        <form action="#" class="flex flex-column justify-bw">
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email">
+          <textarea name="" id="" placeholder="Write your message..."></textarea>
+          <a href="#" class="btn btn-secondry">Send</a>
+        </form>
+      </div>
+      <div class="hello-img">
+        <img src="assets/media/contact-img.jpg" alt="Contact">
+      </div>
+      <div class="office">
+        <h4>Visit my office</h4>
+        <p>
+          456 New Street 220000, New York City, USA
+        </p>
+        <h4> Contact.</h4>
+        <ul>
+          <li><i class="fas fa-phone"></i> 01-0110-0220</li>
+          <li>
+            <a href="#">
+              <i class="far fa-envelope"></i>
+              hello@company.co
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-globe-asia"></i>
+              company.co
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="map-container flex justify-center align-center">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13504.711461632438!2d76.36039842586928!3d32.19943760594047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b522c7cd8b85b%3A0x9d68653444d4c03a!2sRakkar%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1620735170555!5m2!1sen!2sin"
+           style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer flex flex-column justify-center align-center">
+    <small>
+      Copyright &copy; 2021 yxz Company | Designed by 
+      <span class="red">Shishupal Kumar</span>
+    </small>
+    <ul class="flex justify-bw">
+      <li>
+        <a href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fa-google-plus-g"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fa-dribbble"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+
+    </ul>
+  </footer>
+</body>
+
+</html>
